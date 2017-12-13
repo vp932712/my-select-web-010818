@@ -9,7 +9,8 @@ if block_given?
     i +=1
   end
   empty
-else 
+else
   "no block given"
+end
 
 end
