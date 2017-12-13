@@ -7,6 +7,7 @@ if block_given?
     yield (nums[i])
     if (nums[i].even?)
       empty.push(num[i])
+    end
     i +=1
   end
 empty
