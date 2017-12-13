@@ -4,8 +4,8 @@ empty = []
 if block_given?
   i = 0
   while i < collection.length
-    yield (collection[i])
-    collection.even?
+    yield (num[i])
+    num.even?
     i +=1
   end
   
