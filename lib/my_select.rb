@@ -6,6 +6,7 @@ if block_given?
   while i < collection.length
     yield (num[i])
     empty.push(num.even?)
+    i +=1
   end
   empty
 
