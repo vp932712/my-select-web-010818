@@ -8,7 +8,7 @@ if block_given?
     num.even?
     i +=1
   end
-  
+
 else
   "no block given"
 end
