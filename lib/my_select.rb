@@ -8,7 +8,7 @@ if block_given?
     collection.even?
     i +=1
   end
-  empty
+  
 else
   "no block given"
 end
